@@ -9,7 +9,7 @@ public class Main {
 
         double ratio = 0.125*epsGrowth(0) + 0.125*ROIC(0) + 0.125*ROE(0) +
                 0.125*CashFlowtoAssets(0) + 0.125*ROA(0) + 0.125*GrossProfittoAssets(0) +
-                0.125*AssetTurnover(0) + GrossMargin(0);
+                0.125*AssetTurnover(0) + 0.125*GrossMargin(0);
         System.out.println("The Score is " + ratio);
 
 
